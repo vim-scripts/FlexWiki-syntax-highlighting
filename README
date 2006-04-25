@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1529
+
+Syntax highlighting for FlexWiki, http://www.flexwiki.com/ Also a filetype detection script which sets appropriate buffer-local options for editing long lines, etc.
+
+Latest copy can be found at http://www.georgevreilly.com/vim/flexwiki/
+
+More details can be found at http://www.flexwiki.com/default.aspx/FlexWiki/VimPluginForFlexWiki.html
+
+This is included in Vim 7.0
+

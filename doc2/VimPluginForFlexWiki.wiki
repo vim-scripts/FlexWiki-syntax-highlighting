@@ -1,0 +1,34 @@
+﻿Summary: Using Vim to edit FlexWiki pages
+
+!Vim Plugin For FlexWiki
+The "FlexWiki":http://www.georgevreilly.com/vim/flexwiki/ plugin makes editing @.wiki@ files much easier with "Vim":http://www.vim.org (Vi ""IMproved""). The plugin provides syntax highlighting; the default textbox provided by FlexWiki has all the charm and power of Notepad. The plugin also sets a number of buffer-local options which make editing very long lines much more pleasant.
+
+The plugin was written by GeorgeReilly.
+
+!!Installation
+	* Obtain the "FlexWiki plugin for Vim":http://www.georgevreilly.com/vim/flexwiki/
+	* Install "Vim":http://www.vim.org
+	* Set the _HOME_ environment variable to point to somewhere sensible.
+	* Create a new folder, @_HOME_\vimfiles@
+	* Unzip flexwiki.zip in that folder.
+	* Restart Vim.
+
+!!Using the plugin
+	* Either, edit a FlexWiki page directly, if you have access to the wiki's filestore, using @:e ThatPage.wiki@
+	* Or, @:new SomePage.wiki@ to create a new FlexWiki buffer, then copy-and-paste the text from the browser's edit window. When finished, paste the text back into the browser.
+
+http://www.georgevreilly.com/vim/flexwiki/plugin.jpg
+
+!!But I hate Vi!
+If you don't like the modal behavior of Vim, fear not. Vim can be used as a non-modal editor using the *Evim* script. Evim leaves you in insert mode all the time. Or you could try "Cream":http://cream.sourceforge.net/, a much-enhanced implementation of Evim.
+
+!!See Also
+	* FlexWikiEmacsMode if you prefer editing with Emacs
+	* FormattingRules for the syntax
+	* FlexWikiTools for other non-browser tools
+
+!!Todo
+The Vim plugin is not complete. Some things yet to be done:
+	* Test with "Cream":http://cream.sourceforge.net/
+	* Omni-Completion for suggesting links to other pages
+	* Ctrl-] tagging for links
